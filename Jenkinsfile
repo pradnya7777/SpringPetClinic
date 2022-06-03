@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Test') {
             steps{
-                bat 'mvn Test'
+                bat 'mvn test'
             }
         }
         stage('Deploy') {
